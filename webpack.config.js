@@ -3,8 +3,7 @@ const path = require('path');
 module.exports = {
   entry: {
       'polyfill': '@babel/polyfill',
-      'kintone-create-edit-show': './src/kintone-create-edit-show.js',
-      'kintone-create-edit-submit': './src/kintone-create-edit-submit.js'
+      'kintone-create-edit-show': './src/kintone-create-edit-show.js'
   },
   module: {
     rules: [
